@@ -77,3 +77,14 @@ echo "....... Division .........  \n";
 $num1ToDivision = 12;
 $num2ToDivision = 4;
 echo $num1ToDivision / $num2ToDivision . "\n";
+
+//Modal division
+echo "....... Modal division .........  \n";
+$num1ToModalDivision = 13;
+$num2ToModalDivision = 2;
+echo $num1ToModalDivision % $num2ToModalDivision . "\n";
+
+//Advanced operations
+echo "....... Advanced operations .........  \n";
+echo (2 + 3) * 2 . "\n";
+echo 2 + 3 * 2 . "\n";
