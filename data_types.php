@@ -88,3 +88,15 @@ echo $num1ToModalDivision % $num2ToModalDivision . "\n";
 echo "....... Advanced operations .........  \n";
 echo (2 + 3) * 2 . "\n";
 echo 2 + 3 * 2 . "\n";
+
+//Increment
+echo "....... Increment .........  \n";
+$num1 = 5;
+$num1++;
+echo $num1 . "\n";
+
+//Decrement
+echo "....... Decrement .........  \n";
+$num3 = 2;
+$num3--;
+echo $num3 . "\n";
