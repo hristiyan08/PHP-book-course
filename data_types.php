@@ -13,6 +13,9 @@ $text2 = "Peter";
 $symbol = "!";
 echo "$text1 $text2$symbol" . "\n";
 
+$textExample = 'Hello $text1!';   // All content is string
+$textExample2 = "Hello $text1!"; // Give access to variables in the current string
+
 //Double
 $doubleNum1 = 16.2;
 $doubleNum2 = 2;
@@ -100,3 +103,4 @@ echo "....... Decrement .........  \n";
 $num3 = 2;
 $num3--;
 echo $num3 . "\n";
+

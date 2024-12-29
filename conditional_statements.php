@@ -29,4 +29,48 @@ else{
     echo "num3 is 0 \n";
 }
 
-//Logical operators
+/*Logical operators*/
+echo "-------- Logical operators -------- \n";
+// === -> is equal
+if (3 === (2 + 1)){
+    echo "3 is equal to 3 \n";
+}
+
+// != -> is not equal
+
+if (3 != (1 + 1)){
+    echo "3 is not equal to 2 \n";
+}
+
+// < -> less than
+
+if (3 < 5) {
+    echo "3 is less than 5 \n";
+}
+
+// > -> greater than
+
+if (3 > 2){
+    echo "3 is greater than 5 \n";
+}
+
+// >= -> greater than or equal to
+
+if (4 >= 4){
+    echo "4 is equal to 4\n";
+}
+
+if (4 >= 3){
+    echo "4 is greater than 3 \n";
+}
+
+// <= -> less than or equal to
+
+if (3 <= 3){
+    echo "3 is equal to 3\n";
+}
+
+if (2 <= 3){
+    echo "2 is less than 3 \n";
+}
+
