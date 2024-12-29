@@ -13,6 +13,7 @@ $text2 = "Peter";
 $symbol = "!";
 echo "$text1 $text2$symbol" . "\n";
 
+//Difference between quotation marks
 $textExample = 'Hello $text1!';   // All content is string
 $textExample2 = "Hello $text1!"; // Give access to variables in the current string
 
