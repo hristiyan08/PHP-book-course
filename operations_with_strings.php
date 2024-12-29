@@ -17,4 +17,11 @@ echo "$name, you have been promoted! \n"; //In old php versions '$name,' will ge
 echo "{$name}, you have been promoted! \n";
 
 // ? => Ternary operator
-echo  (5 > 10) ? "Yes" :  "No";
+echo  (5 > 10) ? "Yes" :  "No" . "\n";
+
+// ?? =>  Null coalescing operator
+echo "------ Null coalescing operator ------\n";
+$isNull1 = 1;
+$isNull2 = null;
+$isNull = $isNull1 ?? $isNull2; //This operator '??' checks if a variable is not set (never initialized) or has value null
+echo $isNull . "\n";
