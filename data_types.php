@@ -14,8 +14,8 @@ $symbol = "!";
 echo "$text1 $text2$symbol" . "\n";
 
 //Difference between quotation marks
-$textExample = 'Hello $text2!';   // All content is string
-$textExample2 = "Hello $text2!"; // Give access to variables in the current string
+$textExample = 'Hello $text2!';    // All content is string
+$textExample2 = "Hello $text2!";   // Give access to variables in the current string
 
 //Double
 $doubleNum1 = 16.2;
